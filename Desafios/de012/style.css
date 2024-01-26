@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+</style>
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,18 +12,20 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    font-family:'Times New Roman', Times, serif ;
 }
 
 header h1{
     padding-top:50px ;
-    font-variant: small-caps;
 }
+
 header p{
     padding-bottom: 50px;
 }
@@ -37,7 +43,7 @@ a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height:2em ;
     padding-left: 30px;
 }
 
@@ -46,7 +52,16 @@ section.normal{
     color: black;
 }
 
+section p{
+    font-family: 'Single Day', cursive;
+    font-weight: normal;
+    font-size: 1.5em;
+    
+    
+}
+
 section.imagem{
+    display: inline block;
     background-color: rgb(59, 59, 59);
     color: white;
 }
